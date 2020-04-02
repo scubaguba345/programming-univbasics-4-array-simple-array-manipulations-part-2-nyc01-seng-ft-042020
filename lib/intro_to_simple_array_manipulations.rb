@@ -3,7 +3,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  array.insert(4, element)
+  array.insert(4, element) # use the number 4 here as it is the 4th index to be deleted
 end
 
 def using_uniq(array)
@@ -18,6 +18,6 @@ def using_delete(array, string)
   array.delete(string)
 end
 
-#def using_delete_at(array, Integer)
-  #array.delete_at(Integer)
-#end
+def using_delete_at(array, Integer)
+  array.delete_at(2,Integer)
+end
